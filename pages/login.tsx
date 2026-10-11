@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { BrandLockup } from '../components/BrandLockup';
 import {
   FormEvent,
   useCallback,
@@ -161,6 +162,7 @@ export default function LoginPage() {
 
         <div className="relative z-10 mx-auto flex min-h-[100dvh] w-full max-w-[1400px] items-end justify-center px-4 pb-10 pt-4 sm:px-6 sm:pt-6 md:items-center md:pb-0">
           <section className="w-full max-w-[520px] login-shell-enter">
+            <div className="mb-7 flex justify-center"><BrandLockup /></div>
             <LoginHeader
               copy={copy}
               mode={mode}

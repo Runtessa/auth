@@ -1,7 +1,7 @@
 {
-  "name": "Ashna CloudWay",
-  "short_name": "CloudWay",
-  "description": "The familiar path from code to cloud.",
+  "name": "Runtessa",
+  "short_name": "Runtessa",
+  "description": "Sign in and manage your Runtessa account.",
   "id": "/login",
   "start_url": "/login",
   "scope": "/",
@@ -14,15 +14,10 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/brand/ashna-cloudway-icon-white-transparent.png",
-      "sizes": "524x533",
+      "src": "/brand/runtessa-signal.png",
+      "sizes": "1254x1254",
       "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/brand/ashna-cloudway-logo-white-on-black.png",
-      "sizes": "1254x544",
-      "type": "image/png"
+      "purpose": "any"
     }
   ]
 }

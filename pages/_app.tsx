@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import branding from '../branding.json';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import '../styles/globals.css';
@@ -202,16 +203,16 @@ export default function App({ Component, pageProps }: AppProps) {
 
   const appHead = (
     <Head>
-      <link rel="icon" type="image/png" href="/brand/ashna-cloudway-icon-white-transparent.png" />
+      <link rel="icon" type="image/png" href="/brand/runtessa-signal.png" />
       <link rel="manifest" href="/manifest.webmanifest" />
-      <link rel="apple-touch-icon" href="/brand/ashna-cloudway-icon-white-transparent.png" />
-      <meta name="application-name" content="Ashna CloudWay" />
-      <meta name="description" content="The familiar path from code to cloud." />
+      <link rel="apple-touch-icon" href="/brand/runtessa-signal.png" />
+      <meta name="application-name" content="Runtessa" />
+      <meta name="description" content={branding.description} />
       <meta name="theme-color" content="#000000" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content="CloudWay" />
+      <meta name="apple-mobile-web-app-title" content="Runtessa" />
       <meta name="format-detection" content="telephone=no" />
     </Head>
   );
