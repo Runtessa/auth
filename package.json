@@ -1,7 +1,7 @@
 {
   "name": "idp-auth-service",
   "version": "1.0.0",
-  "description": "Standalone SSO and authentication service for IDP tenants",
+  "description": "Standalone SSO and authentication service for Runtessa tenants",
   "private": true,
   "scripts": {
     "dev": "tsx watch server.ts",
@@ -48,7 +48,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlirezaDadrass/Idp.git"
+    "url": "git+https://github.com/Runtessa/auth.git"
   },
   "engines": {
     "node": ">=22.13.0 <23"
