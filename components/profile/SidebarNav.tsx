@@ -1,3 +1,4 @@
+import { BrandLockup } from '../BrandLockup';
 import { FiLogOut } from 'react-icons/fi';
 import { RailKey, railItems } from './config';
 
@@ -28,7 +29,7 @@ export const SidebarNav = ({
         className="fixed top-3 z-[60] hidden md:block"
         style={isRtl ? { right: desktopRailLeft } : { left: desktopRailLeft }}
       >
-        <img src="/brand/ashna-cloudway-logo-white-on-black.png" alt="Ashna CloudWay" className="h-12 w-auto" />
+        <BrandLockup />
       </div>
 
       <nav
