@@ -16,17 +16,17 @@
   "dependencies": {
     "bcryptjs": "3.0.3",
     "cookie-parser": "1.4.7",
-    "dotenv": "18.0.6",
+    "dotenv": "18.0.8",
     "ejs": "7.0.1",
     "express": "4.22.3",
     "express-rate-limit": "7.5.1",
     "helmet": "8.3.0",
     "ioredis": "5.11.1",
-    "next": "16.4.0",
+    "next": "16.4.1",
     "pg": "8.23.1",
     "qrcode": "1.5.4",
-    "react": "19.3.0",
-    "react-dom": "19.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "react-icons": "5.7.0",
     "reflect-metadata": "0.2.2",
     "typeorm": "1.1.2"
@@ -40,7 +40,7 @@
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "autoprefixer": "10.6.1",
-    "postcss": "8.5.29",
+    "postcss": "8.5.30",
     "tailwindcss": "3.4.19",
     "tsx": "4.23.15",
     "typescript": "5.9.3"
@@ -57,7 +57,7 @@
     "qs": "6.16.0",
     "uuid": "11.1.1",
     "serialize-javascript": "7.1.2",
-    "postcss": "8.5.29",
+    "postcss": "8.5.30",
     "postcss-selector-parser": "7.1.6"
   }
 }
